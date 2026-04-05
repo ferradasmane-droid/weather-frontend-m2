@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Chile</title>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <header>
+      <nav class="navbar nabar-expad-lg navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Weather App Chile </a>
+          <div>
+            <a class="btn btn-light btn.sm me-2" href="index.html">Home</a>
+            <a class="btn btn-light btn-sm" href="acerca.html">Acerca de</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Contenido-->
+    <main class="container my-5">
+      <section class="text-center mb4">
+        <h1>El Clima en 10 Ciudades de Chile</h1>
+        <p>Seleciona una ciudad para ver su detalle</p>
+      </section>
+      <!--Cards-->
+      <section>
+        <div class="row" id="contenedor-localidades"></div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">Proyecto Front-End - App de Clima</p>
+    </footer>
+    <!--js-->
+
+    <script src="assets/js/datos.js"></script>
+    <script src="assets/js/card.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
