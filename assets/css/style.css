@@ -1,8 +1,8 @@
-.card-clima{
+.card-clima {
     background: linear-gradient(135deg, #4facfe, #00f2fe);
     color: white;
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2)
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     padding: 25px;
 }
 .temp {
@@ -20,7 +20,7 @@
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
-@media (max-width:576) {
+@media (max-width:576px) {
     .card-clima {
     text-align: center;
   }
