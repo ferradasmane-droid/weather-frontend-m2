@@ -16,7 +16,8 @@ Aplicación web que muestra el clima de distintas ciudades de Chile.
 - JavaScript
 
 ## Cómo usar
-Abrir el archivo index.html en el navegador.
+1. Descargar o clonar el repositorio.
+2. Abrir el archivo index.html en el navegador.
 
 ## Autor
 Proyecto desarrollado para módulo 2 Front-End.
