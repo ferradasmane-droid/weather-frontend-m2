@@ -12,7 +12,7 @@ const ciudades = [
     id: 2,
     nombre: "Castro",
     temperatura: "11°C",
-    estado: "Lluvioso",
+    estado: "Lluvia",
     humedad: "85%",
     viento: "12 km/h",
     pronostico: ["Lluvia", "Lluvia", "Nublado", "Parcial", "Soleado", "Nublado", "Lluvia"]
@@ -84,9 +84,9 @@ const ciudades = [
     id: 10,
     nombre: "Punta Arenas",
     temperatura: "8°C",
-    estado: "Ventoso",
+    estado: "Vientoso",
     humedad: "72%",
     viento: "30 km/h",
-    pronostico: ["Ventoso", "Nublado", "Lluvia", "Ventoso", "Parcial", "Nublado", "Lluvia"]
+    pronostico: ["Vientoso", "Nublado", "Lluvia", "Vientoso", "Parcial", "Nublado", "Lluvia"]
   }
 ];

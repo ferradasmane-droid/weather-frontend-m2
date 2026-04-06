@@ -9,7 +9,8 @@
     font-size: 2rem;
     font-weight: bold;
 }
-.pronostico-card {
+.pronostico-card i {
+    font-size: 2.5rem;
     border-radius: 12px;
     padding: 15px;
     text-align: center;
@@ -24,4 +25,31 @@
     .card-clima {
     text-align: center;
   }
+ }
+ .bi-sun {
+    color: orange;
+ }
+ .bi-cloud-rain {
+    color: #0d6efd;
+ }
+ .bi-cloud {
+    color: gray;
+ }
+ .bi-cloud-sun {
+    color: goldenrod;
+ }
+ .bi-wind {
+    color: teal;
+ }
+ html, body {
+    height: 100%;
+ }
+ body {
+    display: flex;
+    flex-direction: column;
+ }
+ main {
+    margin-bottom:40px 0;
+    flex: 1;
+    padding-top: 60px 0;
  }
