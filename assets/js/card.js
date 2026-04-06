@@ -47,7 +47,7 @@ if (detalle && pronostico) {
     ciudad.pronostico.forEach((dia, index) => {
       pronostico.innerHTML += `
         <div class="col-6 col-md-3 mb-3">
-          <div class="card text-center h-100">
+          <div class="card pronostico-card text-center h-100">
             <div class="card-body">
               <h5>Día ${index + 1}</h5>
               <p>${dia}</p>
