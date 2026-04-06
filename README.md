@@ -22,6 +22,5 @@ Abrir el archivo index.html en el navegador.
 Proyecto desarrollado para módulo 2 Front-End.
 
 ## Repositorio
-https://github.com/ferradasmane-droid/weather-frontend-m2
+https://github.com/ferradasmane-droid/weather-app
 
->>>>>>> 3f22bee (feat: app del clima)
