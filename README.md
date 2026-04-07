@@ -20,7 +20,7 @@ Aplicación web que muestra el clima de distintas ciudades de Chile.
 2. Abrir el archivo index.html en el navegador.
 
 ## Autor
-Proyecto desarrollado para módulo 2 Front-End.
+Proyecto desarrollado por Mane módulo 2 Front-End.
 
 ## Repositorio
 https://github.com/ferradasmane-droid/weather-app
