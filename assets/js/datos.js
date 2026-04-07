@@ -82,6 +82,24 @@ const ciudades = [
   },
   {
     id: 10,
+    nombre: "Coyhaique",
+    temperatura: "10°C",
+    estado: "lluvia",
+    humedad: "85%",
+    viento: "15 km/h",
+    pronostico: ["Nublado", "Lluvia", "Parcial", "Soleado", "Nublado", "Lluvia", "Parcial"]
+  },
+  {
+    id: 11,
+    nombre: "Puerto Varas",
+    temperatura: "13°C",
+    estado: "Nublado",
+    humedad: "18%",
+    viento: "3 km/h",
+    pronostico: ["Nublado", "Lluvia", "Parcial", "Soleado", "Nublado", "Lluvia", "Parcial"]
+  },
+  {
+    id: 12,
     nombre: "Punta Arenas",
     temperatura: "8°C",
     estado: "Vientoso",

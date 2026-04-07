@@ -10,15 +10,17 @@
     font-weight: bold;
 }
 .pronostico-card i {
-    font-size: 2.5rem;
+    font-size: 2rem;
     border-radius: 12px;
     padding: 15px;
     text-align: center;
     background: #f8f9fa;
     transition: transform 0.2s, box-shadow 0.2s;
+    display: block;
+    margin: 10px 0;
 }
 .pronostico-card:hover {
-    transform: scale(1.05);
+    transform: traslateY(-5PX);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 @media (max-width:576px) {
@@ -27,13 +29,13 @@
   }
  }
  .bi-sun {
-    color: orange;
+    color: #f59f00;
  }
  .bi-cloud-rain {
-    color: #0d6efd;
+    color: #228be6;
  }
  .bi-cloud {
-    color: gray;
+    color: #868e96;
  }
  .bi-cloud-sun {
     color: goldenrod;
@@ -47,9 +49,16 @@
  body {
     display: flex;
     flex-direction: column;
+    background-color: #e9ecef;
  }
  main {
     margin-bottom:40px 0;
     flex: 1;
     padding-top: 60px 0;
+ }
+ .pronostico-card  {
+   text-align: center;
+ }
+ .pronostico-card h5 {
+   margin-bottom: 10px;
  }
