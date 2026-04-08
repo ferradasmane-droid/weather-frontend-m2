@@ -1,5 +1,5 @@
 
-# Weather App - Chile
+# 🌦️ Weather App - Chile
 
 Aplicación web que muestra el clima de distintas ciudades de Chile.
 
@@ -22,6 +22,11 @@ Aplicación web que muestra el clima de distintas ciudades de Chile.
 ## Autor
 Proyecto desarrollado por Mane módulo 2 Front-End.
 
-## Repositorio
-https://github.com/ferradasmane-droid/weather-app
+## 💻 Repositorio
+👉 [Ver código](https://github.com/ferradasmane-droid/weather-frontend-m2)
+
+## 🌐Demo
+👉 [Ver app](https://ferradasmane-droid.github.io/weather-frontend-m2/)
+
+
 
